@@ -1,85 +1,50 @@
-Desktop Assistant - Jarvis
 
-Introduction
+# Desktop Assistant - Jarvis
 
-Jarvis is a Python-based desktop assistant designed to automate tasks and provide an interactive user experience. It can perform various functions such as opening applications, searching the web, and responding to voice commands.
+Jarvis is a Python-based desktop assistant designed to automate tasks and provide an interactive user experience. It can execute voice commands to open applications, search the web, play media, and provide updates like weather forecasts.
 
-Features
+### Features:
+- Voice recognition and command execution
+- Open applications (Notepad, Chrome, etc.)
+- Web search capabilities
+- Play music and videos
+- Provide weather updates
+- Automate repetitive tasks
 
-Voice recognition and command execution
+### Requirements:
+- Python 3.x
+- SpeechRecognition, pyttsx3, pyaudio
+- datetime, webbrowser, os, subprocess
 
-Open applications like Notepad, Chrome, etc.
-
-Web search capabilities
-
-Play music and videos
-
-Provide weather updates
-
-Automate repetitive tasks
-
-Requirements
-
-Ensure you have the following dependencies installed before running the assistant:
-
-Python 3.x
-
-SpeechRecognition
-
-pyttsx3
-
-pyaudio
-
-datetime
-
-webbrowser
-
-os
-
-subprocess
-
-Installation
-
-Follow these steps to set up the assistant on your system:
-
-Clone the repository:
-
+### Installation:
+```sh
+# Clone the repository
 git clone <repository-url>
 cd jarvis-main
 
-Install dependencies:
-
+# Install dependencies
 pip install -r requirements.txt
 
-Run the assistant:
-
+# Run the assistant
 python main.py
+```
 
-Usage
+### Usage:
+1. Run `main.py` to start the assistant.
+2. Speak into the microphone and give commands like:
+   - "Open Notepad"
+   - "Search for Python programming"
+   - "Play music"
 
-Run main.py to start the assistant.
+### Customization:
+Modify `main.py` and `engine/` to enhance functionality.
 
-Speak into the microphone and give commands such as:
+### Contributing:
+Fork the repository, make modifications, and submit pull requests.
 
-"Open Notepad"
+### License:
+MIT License.
 
-"Search for Python programming"
-
-"Play music"
-
-Customization
-
-You can modify the assistant by editing the main.py and engine/ directory to add or enhance functionality.
-
-Contributing
-
-Feel free to fork the repository, make modifications, and submit pull requests.
-
-License
-
-This project is open-source and available under the MIT License.
-
-Contact
-
-For any queries or suggestions, reach out to us at [sagarsagarsagar795@gmail.com].
+### Contact:
+For queries or suggestions, email [sagarsagarsagar795@gmail.com].
 
